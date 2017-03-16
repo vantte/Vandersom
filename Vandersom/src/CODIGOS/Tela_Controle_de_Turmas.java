@@ -11,12 +11,12 @@ import java.awt.Dimension;
  *
  * @author Usuario
  */
-public class Tela_Interna extends javax.swing.JInternalFrame {
+public class Tela_Controle_de_Turmas extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form Tela_Interna
      */
-    public Tela_Interna() {
+    public Tela_Controle_de_Turmas() {
         initComponents();
     }
 
@@ -46,6 +46,7 @@ public class Tela_Interna extends javax.swing.JInternalFrame {
         jButton5 = new javax.swing.JButton();
 
         setClosable(true);
+        setTitle("Controle de Turmas");
         addInternalFrameListener(new javax.swing.event.InternalFrameListener() {
             public void internalFrameActivated(javax.swing.event.InternalFrameEvent evt) {
             }
