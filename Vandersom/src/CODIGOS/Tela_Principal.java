@@ -98,7 +98,7 @@ public class Tela_Principal extends javax.swing.JFrame {
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         // TODO add your handling code here:
-        Tela_Interna t = new Tela_Interna();
+        Tela_Interna2 t = new Tela_Interna2();
         jDesktopPane1.add(t);
         t.setVisible(true);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
